@@ -129,6 +129,14 @@ p {
   line-height: 1.285;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 address {
   font-style: normal;
 }
@@ -167,7 +175,7 @@ header img {
 }
 
 .header-divider {
-  background: #3a3a3a
+  background: #3a3a3a;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -179,6 +187,7 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   font-size: 1.125em;
+  font-weight: 700;
   text-transform: uppercase;
   width: 60%;
 }
@@ -187,6 +196,9 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+}
+header nav ul li {
+  font-size: 1.125em;
 }
 
 footer {
@@ -205,9 +217,6 @@ footer .content-wrapper{
 
 footer .contact {
   margin-bottom: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 footer .social-icons {
@@ -234,13 +243,17 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
 
 .hero-area h1 {
   font-size: 2.25em;
-  font-family: 'Poppins', Helvetica. Arial, sans-serif;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight:500;
-  line-height: 1.2;
+  line-height:1.2;
 }
 
 /*---- ASIDE ----*/
@@ -286,6 +299,9 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/unsplash2.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .features h2 {
@@ -321,17 +337,11 @@ input[type=button] {
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
-  /*display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
 }
 
 /* ==========================================================================
@@ -529,6 +539,10 @@ input[type=button] {
 
 /*--- HERO AREA ---*/
 
+.hero-area {
+  min-height: 600px;
+}
+
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
@@ -576,6 +590,8 @@ aside .content-wrapper .form {
       width: 75%;
       margin: 0;
     }
+
+    .reviews article figure,
     .reviews article div {
       width: 49%;
     }
@@ -609,12 +625,6 @@ aside .content-wrapper .form {
     footer .copyright {
       width: 100%;
     }
-
-    /*.copyright {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }*/
 
     /*=========== ABOUT PAGE ===========*/
 
@@ -672,6 +682,7 @@ aside .content-wrapper .form {
     header {
       padding: 15px 0;
     }
+
     .content-wrapper{
       max-width: 960px;
     }
@@ -694,7 +705,7 @@ aside .content-wrapper .form {
 
     .hero-area h1 {
       font-size: 3.75em;
-      width: 60%;
+      width: 80%;
     }
 
     /*--- ASIDE ---*/
@@ -705,6 +716,10 @@ aside .content-wrapper .form {
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
       width: 30%;
+    }
+
+    .form-description p {
+      font-size: 1.125em;
     }
 
     /*--- FEATURES ---*/
@@ -731,12 +746,6 @@ aside .content-wrapper .form {
       font-size: 1.875em;
     }
 
-    /*.copyright {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }*/
-
     /*====== ABOUT PAGE ======*/
 
     .mission h2, 
@@ -753,6 +762,7 @@ aside .content-wrapper .form {
 
     .faq h2 {
       width: 100%;
+      font-size: 3em;
     }
 
     .faq h4,
