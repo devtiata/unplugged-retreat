@@ -328,6 +328,7 @@ input[type=button] {
 	font-size: 3.75em;
   margin-bottom: 40px;
   align-items: center;
+  padding-right: 100px;
 }
 
 /*---- REVIEWS ----*/
@@ -340,11 +341,13 @@ input[type=button] {
 }
 
 .reviews h2 {
+  font-family: 'Poppin', sans-serif;
   margin-bottom: 40px;
   line-height: 1;
 }
 
 .reviews h3 {
+  font-family: 'Poppin', sans-serif;
   width: 55%;
   margin: 20px 0;
 }
@@ -367,6 +370,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  font-family: 'Poppin', sans-serif;
 } 
 
 .contact-content p {
@@ -398,7 +402,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-direction: row;
 }
 
 .faq .content-wrapper {
