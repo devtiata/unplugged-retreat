@@ -326,9 +326,7 @@ input[type=button] {
 
 .features i {
 	font-size: 3.75em;
-  margin-bottom: 40px;
-  align-items: center;
-  padding-right: 100px;
+ margin-bottom: 20px;
 }
 
 /*---- REVIEWS ----*/
@@ -599,6 +597,11 @@ aside .content-wrapper .form {
 
     .features .features-item-description {
       width: 62%;
+    }
+    .features i {
+      font-size: 3.75em;
+     margin-bottom: 20px;
+     padding: 0 110px 0 0;
     }
 
     /*--- REVIEWS ---*/
